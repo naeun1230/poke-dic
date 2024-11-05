@@ -1,0 +1,7 @@
+.PokeList {
+   display: flex;
+   flex-wrap: wrap;
+   overflow-y: auto;
+   align-content: center;
+   justify-content: center;
+}

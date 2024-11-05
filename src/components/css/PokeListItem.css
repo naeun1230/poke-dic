@@ -1,0 +1,33 @@
+.PokeListItem {
+   width: 250px;
+   padding: 1rem;
+   margin: 0 10px;
+}
+
+.PokeListItem img {
+   width: 250px;
+   border: 1px solid #eee;
+   padding: 10px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.PokeListItem .PokeName {
+   font-weight: bold;
+   font-size: large;
+   padding-left: 10px;
+}
+
+.PokeListItem .remove {
+   margin-left: 10px;
+   background-color: red;
+   color: #fff;
+   border-radius: 5px;
+   border: none;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.PokeListItem .black {
+   filter: grayscale(100%);
+}
